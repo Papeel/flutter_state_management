@@ -4,6 +4,6 @@ class Usuario {
   List<String> profesiones;
 
 
-  Usuario({required this.edad,required this.nombre,required this.profesiones});
+  Usuario({required this.edad,required this.nombre,  this.profesiones = const []});
 
 }
